@@ -10,9 +10,8 @@ int main(void) {
     int variable;
     while (scanf("%d", &variable) == 1) {
         printf("Read: %d\n", variable);
-
     }
-
-
+    
+    
     return 0;
 }

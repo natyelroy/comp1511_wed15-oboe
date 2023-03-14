@@ -8,23 +8,23 @@
 
 int main(void) {
     // 1. Declare and initialise array of 7
-    int temp[NUM_DAYS];
+    int array[NUM_DAYS];
 
     // 2. Read in values
     for (int i = 0; i < NUM_DAYS; i++) {
-        scanf("%d", &temp[i]);
+        scanf("%d", &array[i]);
     }
 
     // 3. Find max values
-    int max = temp[0];
+    int max = array[0];
     for (int i = 0; i < NUM_DAYS; i++) {
-        if (temp[i] > max) {
-            max = temp[i];
+        if (array[i] > max) {
+            max = array[i];
         }
     }
 
     // 4. Print max temp
-    printf("Max temp: %d\n", max);
+    printf("%d", max);
 
     return 0;
 }
